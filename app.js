@@ -20,7 +20,7 @@ app.use((req,res,next)=>{
     delete req.session.message
     next()
 });
-mongoose.connect('mongodb+srv://admin-RhythmJayee:test123@cluster0-zvjdt.mongodb.net/userDataBase',{ useUnifiedTopology: true,useNewUrlParser: true });
+mongoose.connect('mongodb+srv://admin-RhythmJayee:(password)@cluster0-zvjdt.mongodb.net/userDataBase',{ useUnifiedTopology: true,useNewUrlParser: true });
 // mongoose.connect('mongodb://localhost:27017/userDataBase',{ useUnifiedTopology: true,useNewUrlParser: true });
 
 
